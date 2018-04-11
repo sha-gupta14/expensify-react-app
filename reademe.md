@@ -15,4 +15,4 @@ Need to create bundle.js to use as local server
 npm add chalk --dev - Create new dependencies for development
 npm install --production - Create node_module based on dependencies for production
 
-npm run build:prod 
+npm run build:prod
