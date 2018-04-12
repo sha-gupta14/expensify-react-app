@@ -16,3 +16,11 @@ npm add chalk --dev - Create new dependencies for development
 npm install --production - Create node_module based on dependencies for production
 
 npm run build:prod
+
+
+#Heroku
+
+heroku login - for login
+heroku create <app name> - create as app
+git push heroku master - deploy
+heroku open - launch app
