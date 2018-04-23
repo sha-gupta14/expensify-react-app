@@ -10,6 +10,6 @@ app.get('*', (req, res) => {
     res.sendFile(path.join(getPath, 'index.html'));
 });
 
-app.listen(port, () => {
+app.listen(process.env.PORT, () => {
     console.log("Express server is running...");
 });
