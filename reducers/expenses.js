@@ -20,6 +20,8 @@ const expenseReducer = (state = defaultExpenseReducer, action) => {
                     return expense;
                 }
             });
+        case 'GET_EXPENSE':
+            return action.expense
         default:
             return state;
     }

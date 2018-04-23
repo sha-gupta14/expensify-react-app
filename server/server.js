@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 const getPath = path.join(__dirname, '..');
 const port = process.env.PORT || 2000;
-console.log(port);
+
 app.use(express.static(getPath));
 
 app.get('*', (req, res) => {
